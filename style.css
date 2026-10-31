@@ -310,3 +310,7 @@ html[dir="rtl"] .hero h1 { line-height: 1.35; }
 html[dir="rtl"] .brand-text { direction: ltr; }
 html[dir="rtl"] .logo-card { transform: rotate(2deg); }
 html[dir="rtl"] .contact-info a[href^="mailto"] { direction: ltr; unicode-bidi: embed; }
+
+/* Map */
+.map { margin-top: 26px; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); border: 2px solid var(--gold); }
+.map iframe { display: block; width: 100%; height: 240px; border: 0; }
